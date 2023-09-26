@@ -112,7 +112,6 @@ public class CS4_Ex4_Almirol {
                 }                               
                 round--;             
             }
-            System.out.println(round);
             if (round == 1) {
                 System.out.println("The computer has selected its move. Select your move:");
                 System.out.println("1. Rock");
@@ -171,9 +170,9 @@ public class CS4_Ex4_Almirol {
                 }
                 
                 if ((playerPoints == round) || ((playerPoints>computerPoints))) {
-                    System.out.print("\nPlayer wins!\n");
+                    System.out.print("Player wins!\n");
                 } else if (computerPoints == round || ((playerPoints<computerPoints))) {
-                    System.out.print("\nComputer wins!\n");
+                    System.out.print("Computer wins!\n");
                 } 
             }
         } 
