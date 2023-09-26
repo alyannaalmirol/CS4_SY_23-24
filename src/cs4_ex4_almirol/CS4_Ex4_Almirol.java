@@ -97,12 +97,12 @@ public class CS4_Ex4_Almirol {
                 switch (result) {
                     case 0:
                         playerPoints++;                        
-                        System.out.println("Player chose " + player + ". Computer chose " + computer + ". Player wins!");
+                        System.out.println("Player chose " + player + ". Computer chose " + computer + ". Player wins round!");
                         System.out.println("Player: " + playerPoints + " - Computer: " + computerPoints + "\n");
                         break;
                     case 1:
                         computerPoints++;
-                        System.out.println("Player chose " + player + ". Computer chose " + computer + ". Computer wins!");
+                        System.out.println("Player chose " + player + ". Computer chose " + computer + ". Computer wins round!");
                         System.out.println("Player: " + playerPoints + " - Computer: " + computerPoints + "\n");
                         break;
                     case 2:
@@ -112,6 +112,7 @@ public class CS4_Ex4_Almirol {
                 }                               
                 round--;             
             }
+            System.out.println(round);
             if (round == 1) {
                 System.out.println("The computer has selected its move. Select your move:");
                 System.out.println("1. Rock");
@@ -155,12 +156,12 @@ public class CS4_Ex4_Almirol {
                 switch (result) {
                     case 0:
                         playerPoints++;
-                        System.out.println("Player chose " + player + ". Computer chose " + computer + ". Player wins!");
+                        System.out.println("Player chose " + player + ". Computer chose " + computer + ". Player wins round!");
                         System.out.println("Player: " + playerPoints + " - Computer: " + computerPoints + "\n");
                         break;
                     case 1:
                         computerPoints++;
-                        System.out.println("Player chose " + player + ". Computer chose " + computer + ". Computer wins!");
+                        System.out.println("Player chose " + player + ". Computer chose " + computer + ". Computer wins round!");
                         System.out.println("Player: " + playerPoints + " - Computer: " + computerPoints + "\n");
                         break;
                     case 2:
@@ -169,15 +170,15 @@ public class CS4_Ex4_Almirol {
                         break;
                 }
                 
-                if (playerPoints == round) {
-                    System.out.print("\nPlayer wins!");
-                } else if (computerPoints == round) {
-                    System.out.print("\nComputer wins!");
+                if ((playerPoints == round) || ((playerPoints>computerPoints))) {
+                    System.out.print("\nPlayer wins!\n");
+                } else if (computerPoints == round || ((playerPoints<computerPoints))) {
+                    System.out.print("\nComputer wins!\n");
                 } 
             }
         } 
         else if (choices == 2) {
-            System.out.println("How many wins are needed to win a match?");
+            System.out.println("\nHow many wins are needed to win a match?");
             System.out.print("> ");
             round = sc.nextInt();
             
