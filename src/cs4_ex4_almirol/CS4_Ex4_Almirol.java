@@ -170,9 +170,9 @@ public class CS4_Ex4_Almirol {
                 }
                 
                 if (playerPoints == round) {
-                    System.out.println("\nPlayer wins!");
+                    System.out.print("\nPlayer wins!");
                 } else if (computerPoints == round) {
-                    System.out.println("\nComputer wins!");
+                    System.out.print("\nComputer wins!");
                 } 
             }
         } 
