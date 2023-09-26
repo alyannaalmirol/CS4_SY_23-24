@@ -169,9 +169,13 @@ public class CS4_Ex4_Almirol {
                         break;
                 }
                 
-                if ((playerPoints == round) || ((playerPoints>computerPoints))) {
+                if (computerPoints==playerPoints) {
+                    
+                }
+                else if ((playerPoints == round) || ((playerPoints>computerPoints))) {
                     System.out.print("Player wins!\n");
-                } else if (computerPoints == round || ((playerPoints<computerPoints))) {
+                } 
+                else if ((computerPoints == round) || ((playerPoints<computerPoints))) {
                     System.out.print("Computer wins!\n");
                 } 
             }
