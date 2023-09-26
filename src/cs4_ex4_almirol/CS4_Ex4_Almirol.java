@@ -24,7 +24,7 @@ public class CS4_Ex4_Almirol {
         
         //import roundsToWin
         RockPaperScissors rounds = new RockPaperScissors();
-        int round = rounds.getroundsToWin();
+        int round = rounds.getRoundsToWin();
         
         int computerPoints = 0;
         int playerPoints = 0;        
