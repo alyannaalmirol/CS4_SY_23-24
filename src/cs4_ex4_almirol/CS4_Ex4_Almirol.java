@@ -181,7 +181,7 @@ public class CS4_Ex4_Almirol {
             System.out.print("> ");
             round = sc.nextInt();
             
-            System.out.println("New setting has been saved!");
+            System.out.println("\nNew setting has been saved!");
         } 
         else if (choices == 3) {
             System.out.println("\nThank you for playing!");
