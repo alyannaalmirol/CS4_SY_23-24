@@ -98,16 +98,16 @@ public class CS4_Ex4_Almirol {
                     case 0:
                         playerPoints++;                        
                         System.out.println("Player chose " + player + ". Computer chose " + computer + ". Player wins!");
-                        System.out.println("Player: " + playerPoints + " - Computer: " + computerPoints);
+                        System.out.println("Player: " + playerPoints + " - Computer: " + computerPoints + "\n");
                         break;
                     case 1:
                         computerPoints++;
                         System.out.println("Player chose " + player + ". Computer chose " + computer + ". Computer wins!");
-                        System.out.println("Player: " + playerPoints + " - Computer: " + computerPoints);
+                        System.out.println("Player: " + playerPoints + " - Computer: " + computerPoints + "\n");
                         break;
                     case 2:
                         System.out.println("Player chose " + player + ". Computer chose " + computer + ". Round is tied!");
-                        System.out.println("Player: " + playerPoints + " - Computer: " + computerPoints);
+                        System.out.println("Player: " + playerPoints + " - Computer: " + computerPoints + "\n");
                         break;
                 }                               
                 round--;             
@@ -156,16 +156,16 @@ public class CS4_Ex4_Almirol {
                     case 0:
                         playerPoints++;
                         System.out.println("Player chose " + player + ". Computer chose " + computer + ". Player wins!");
-                        System.out.println("Player: " + playerPoints + " - Computer: " + computerPoints);
+                        System.out.println("Player: " + playerPoints + " - Computer: " + computerPoints + "\n");
                         break;
                     case 1:
                         computerPoints++;
                         System.out.println("Player chose " + player + ". Computer chose " + computer + ". Computer wins!");
-                        System.out.println("Player: " + playerPoints + " - Computer: " + computerPoints);
+                        System.out.println("Player: " + playerPoints + " - Computer: " + computerPoints + "\n");
                         break;
                     case 2:
                         System.out.println("Player chose " + player + ". Computer chose " + computer + ". Round is tied!");
-                        System.out.println("Player: " + playerPoints + " - Computer: " + computerPoints);
+                        System.out.println("Player: " + playerPoints + " - Computer: " + computerPoints + "\n");
                         break;
                 }
                 
