@@ -28,7 +28,7 @@ public class Store {
   public void sellItem(int index){
     boolean found = false;
     // check if index is within the size of the itemList (if not, print statement that there are only x items in the store)
-    System.out.println("\nSelling item at index" + index + "...");
+    System.out.println("\nSelling item at index " + index + "...");
     if (index < itemList.size()){
         
         // get Item at index from itemList and add its cost to earnings     
